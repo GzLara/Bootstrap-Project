@@ -6,6 +6,7 @@
 body {
  
     background-color: rgb(164, 230, 252) !important;
+    padding-top: 0% !important;
 
 }
 
@@ -13,5 +14,40 @@ body {
 
     padding-top: 2.4rem !important;
 
+}
 
+.coluna a:hover {
+
+    color:darkblue !important;
+
+}
+
+.navbar {
+
+    background-color: lightgrey !important;
+    width: 15vw !important;
+    height: 100vh !important;
+    position: fixed !important;
+    
+}
+
+.btn {
+
+    border-color: transparent !important;
+   
+}
+
+article {
+    margin-left: 15vw; 
+    height: 100vh; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    background: url('imgs/vaquita.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.alinhamento {
+
+    text-align: center;
 }
