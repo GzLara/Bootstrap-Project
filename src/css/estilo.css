@@ -24,7 +24,7 @@ body {
 
 .navbar {
 
-    background-color: lightgrey !important;
+    background-color: aliceblue !important;
     width: 15vw !important;
     height: 100vh !important;
     position: fixed !important;
@@ -37,17 +37,38 @@ body {
    
 }
 
-article {
+.article {
     margin-left: 15vw; 
     height: 100vh; 
     display: flex; 
     justify-content: center; 
     align-items: center; 
-    background: url('imgs/vaquita.jpg') no-repeat center center;
+    background: url('../imgs/mar.jpg') no-repeat center center;
     background-size: cover;
+    
 }
 
 .alinhamento {
 
     text-align: center;
+}
+
+main, section, .container, .article {
+    margin-left: 15vw;
+
+}
+
+#cards-section {
+
+    position: fixed;
+    top: 20%;
+    right: 0;
+    width: 85vw; 
+    height: 100vh;
+    overflow-y: auto;
+    padding: 2rem;
+}
+
+body, html {
+  overflow-x: hidden;
 }
